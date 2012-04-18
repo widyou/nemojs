@@ -1,0 +1,42 @@
+lable{
+	display: inline-block;
+	width: 70px;
+}
+
+table._nemo_{
+	border-bottom: 2px black solid;
+	border-right: 2px black solid;
+}
+td._nemo_{
+	width: 15px !important;
+	height: 15px !important;
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	text-align: center !important;
+	font-size: .8em !important;
+	line-height: 1 !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+td._nemo_t{
+	background-color: gray !important;
+}
+td._nemo_o{
+	background-image: url('../img/nemo_bg.png') !important;
+	background-position-x: 0px !important;
+}
+td._nemo_x{
+	background-image: url('../img/nemo_bg.png') !important;
+	background-position-x: -15px !important;
+}
+td._nemo_ot{
+    background-image: url('../img/nemo_bg.png') !important;
+	background-position-x: -30px !important;
+}
+td._nemo_xt{
+    background-image: url('../img/nemo_bg.png') !important;
+	background-position-x: -45px !important;
+}
+td._nemo_bgc{
+	background-color: #ffff88 !important;
+}
