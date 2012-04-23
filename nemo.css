@@ -22,19 +22,19 @@ td._nemo_t{
 	background-color: gray !important;
 }
 td._nemo_o{
-	background-image: url('../img/nemo_bg.png') !important;
+	background-image: url('nemo_bg.png') !important;
 	background-position-x: 0px !important;
 }
 td._nemo_x{
-	background-image: url('../img/nemo_bg.png') !important;
+	background-image: url('nemo_bg.png') !important;
 	background-position-x: -15px !important;
 }
 td._nemo_ot{
-    background-image: url('../img/nemo_bg.png') !important;
+    background-image: url('nemo_bg.png') !important;
 	background-position-x: -30px !important;
 }
 td._nemo_xt{
-    background-image: url('../img/nemo_bg.png') !important;
+    background-image: url('nemo_bg.png') !important;
 	background-position-x: -45px !important;
 }
 td._nemo_bgc{
