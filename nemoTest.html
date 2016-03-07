@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="nemo.css">
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.js"></script>
+	<script type="text/javascript" src="nemo.js"></script>
+</head>
+<body>
+	<h2>play 모드</h2>
+	<div id="nemoPlace"></div>
+	<h2>draw 모드</h2>
+	<div id="nemoPlace2"></div>
+	<textarea name="" id="queryInput" cols="30" rows="10"></textarea>
+</body>
+<script type="text/javascript">
+	$.nemo.build('nemoPlace', {
+		debug: true,
+		type: 'play',
+		width: 10,
+		height: 10,
+		widthMax: 5,
+		heightMax: 5,
+		query: '3:1,1:6:1,2,1:1,3:1,1,1:3,4:4:3:2:2:1,1:3,3:1,2,2:1,4:2,3:7:1,1:1,1:1,1'
+	});
+	$.nemo.build('nemoPlace2', {
+		type: 'draw',
+		width: 10,
+		height: 10,
+		queryInputId: 'queryInput'
+	});
+</script>
+</html>
